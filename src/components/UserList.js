@@ -47,13 +47,13 @@ const UserList = () => {
   };
 
   return (
-    <div class="min-h-screen  mx-auto p-4 bg-gradient-to-br from-black via-blue-800 to-black">
+    <div className="min-h-screen  mx-auto p-4 bg-gradient-to-br from-black via-blue-800 to-black">
         <div>
-            <h1 class="italic hover:not-italic font-bold text-center p-4 text-6xl mb-5 text-transparent bg-clip-text bg-gradient-to-br from-purple-500 to-pink-500">User List App</h1>
+            <h1 className="italic hover:not-italic font-bold text-center p-4 text-6xl mb-5 text-transparent bg-clip-text bg-gradient-to-br from-purple-500 to-pink-500">User List App</h1>
         </div>
-      <div class="flex flex-row justify-around">
+      <div className="flex flex-row justify-around">
         {/* Search input field */}
-        <div class="w-full">
+        <div className="w-full">
             <input
                 type="text"
                 placeholder="Search by name"
@@ -63,7 +63,7 @@ const UserList = () => {
             />
         </div>
         {/* Select input field for sorting */}
-        <div class="w-full">
+        <div className="w-full">
             <select
                 onChange={e => setSortBy(e.target.value)}
                 className="w-4/5 mb-4 p-2 rounded border border-gray-300 focus:outline-none focus:border-blue-500 bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500"
@@ -75,7 +75,7 @@ const UserList = () => {
             </select>
         </div>
         {/*User Form for Add User*/}
-        <div class="w-full">
+        <div className="w-full">
           <button
             className="w-4/5 bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
             onClick={() => setShowAddUserForm(!showAddUserForm)}

@@ -1,70 +1,63 @@
-# Getting Started with Create React App
+# User List Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to the User List Application! This application allows you to view, search, sort, and add users. Below are the features and design requirements of this application:
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+1. **User List Page**
+   - Displays all users in a card view.
+   - Each card shows the following information about the users:
+     - Avatar
+     - First Name
+     - Last Name
+     - Email
+     - Address (Street, Suite, City)
+     - Company Name
+   - Clicking on a user's name opens a separate page showing user details.
+   
+2. **Search Functionality**
+   - A search input field is provided at the top of the list.
+   - Users can type in the search field to search based on the user's name.
 
-### `npm start`
+3. **Sorting Options**
+   - A select input field is provided at the top of the list to sort users with the following options:
+     - Sort by name
+     - Sort by email
+     - Sort by Company name
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+4. **User Addition**
+   - A form is available on the user list page to add users with all the mentioned information.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Design Requirements
 
-### `npm test`
+1. **Clean Design**
+   - The app has a clean and user-friendly design.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+2. **Card Layout**
+   - Each user's information is displayed in separate cards.
+   - The layout adjusts based on the screen size:
+     - One card per row on mobile screens.
+     - Two cards per row on tablet screens.
+     - Three or four cards per row above the tablet screens.
 
-### `npm run build`
+3. **Responsiveness**
+   - The app is responsive and works seamlessly on all devices.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Technologies Used
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- HTML5
+- Tailwind CSS
+- JavaScript
+- React.js (or any other preferred framework/library for front-end development)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## How to Run the Application
 
-### `npm run eject`
+1. Clone this repository to your local machine.
+2. Navigate to the project directory.
+3. Install dependencies using your preferred package manager (npm, yarn, etc.).
+4. Start the development server.
+5. Access the application through your web browser.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Contributors
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- [Md. Omor Galib] - Developer
